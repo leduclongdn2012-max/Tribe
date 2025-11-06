@@ -1,16 +1,6 @@
 # Tribe
 Hehe Ok
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Tribe</title>
-  </head>
-  <body>
-    <h1>Welcome to Tribe!</h1>
-    <p>Website đã được tạo thành công ✅</p>
-  </body>
-</html>
+
 
 
 
