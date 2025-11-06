@@ -64,3 +64,104 @@
   </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tribe</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(to bottom right, #6a5af9, #00c4ff);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      color: white;
+    }
+
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.12);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 40px 50px;
+      max-width: 420px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 18px;
+      opacity: 0.9;
+      margin-bottom: 28px;
+    }
+
+    button {
+      background: #fff;
+      color: #333;
+      font-size: 16px;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background: #e9e9e9;
+    }
+
+    footer {
+      width: 100%;
+      text-align: center;
+      padding: 16px;
+      opacity: 0.9;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    ✅ Tribe
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h1>Welcome to Tribe</h1>
+      <p>Website đã hoạt động thành công!</p>
+      <button onclick="alert('Bạn đã nhấn nút!')">Bấm vào đây 👋</button>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Tribe — All rights reserved.
+  </footer>
+</body>
+</html>
