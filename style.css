@@ -65,3 +65,16 @@ footer {
   opacity: 0.9;
   font-size: 14px;
 }
+/* DARK MODE */
+body.dark {
+  background: #111;
+  color: #fff;
+}
+
+body.dark .card {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+nav a.active {
+  text-decoration: underline;
+}
